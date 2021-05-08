@@ -12,7 +12,7 @@ To use Samples-Pack you'll need SCANeR Software and license.
 If you want to evaluate and validate SCANeR Software feel free to [request our Trial version here](https://www.avsimulation.com/scaner-studio-trial/)
 Our Trial version includes:
 - Last official release of SCANeR Software (including studio, explore and compute) with full features
-- A workstation license valid for 45-days
+- A fixed workstation license valid for 45-days (convertible into perpetual)
 
 [Let's start!](https://sphilippe-avs.github.io/Samples-Pack/GettingStarted)
 
