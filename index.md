@@ -6,7 +6,7 @@ The Samples-Pack is about 30 SCANeR configurations ready to run experimentations
 The key point is that the Samples-Pack help you to avoid to start a new project with a white page. 
 If you feel the need for a missing experimentation, let us know. We may have scenarios not yet included in the Samples-Pack that we could share or we may take your feedback into account for the next version of the Samples-Pack.
 
-### Installation
+### Get started
 
 To use Samples-Pack you'll need SCANeR studio and a valid license.
 If you to evaluate and validate SCANeR studio feel free to request our [request our Trial version here](https://www.avsimulation.com/scaner-studio-trial/)
@@ -14,7 +14,7 @@ Our Trial version includes:
 - Last official release of SCANeR studio with full features
 - A workstation license valid for 45-days
 
-[Get started!](https://sphilippe-avs.github.io/Samples-Pack/GettingStarted)
+[Let's start!](https://sphilippe-avs.github.io/Samples-Pack/GettingStarted)
 
 ### Support or Contact
 
