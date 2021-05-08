@@ -1,6 +1,6 @@
 ## Welcome to Samples-Pack Pages
 
-You can use the [editor on GitHub](https://github.com/sphilippe-avs/Samples-Pack/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+You can use the Samples-Pack to avoid to start a new project with a white page or preview new content and features for your experimentations.
 
 The Samples-Pack is about 30 SCANeR configurations ready to run experimentations showing some of the best practices. 
 The key point is that the Samples-Pack help you to avoid to start a new project with a white page. 
