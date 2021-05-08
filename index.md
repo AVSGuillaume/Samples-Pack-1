@@ -14,7 +14,7 @@ Our Trial version includes:
 - Last official release of SCANeR studio with full features
 - A workstation license valid for 45-days
 
-[Get started!](https://github.com/sphilippe-avs/Samples-Pack/edit/gh-pages/GettingStarted.md)
+[Get started!](https://sphilippe-avs.github.io/Samples-Pack/GettingStarted)
 
 ### Support or Contact
 
