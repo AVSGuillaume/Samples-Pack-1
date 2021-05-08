@@ -14,6 +14,8 @@ Our Trial version includes:
 - Last official release of SCANeR studio with full features
 - A workstation license valid for 45-days
 
+[Get started!](https://github.com/sphilippe-avs/Samples-Pack/edit/gh-pages/GettingStarted.md)
+
 ### Support or Contact
 
 Having trouble with Samples-Pack? Check out our [FAQ](http://stockage.scanersimulation.com/Evaluation/2021/SCANeRstudio_Evaluation_FAQ.pdf) or [contact support](support-scaner@avsimulation.fr) and we’ll help you sort it out.
