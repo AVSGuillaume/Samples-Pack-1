@@ -19,11 +19,11 @@ The tutorial is tested to work with the SCANeR Software 2021.1.
 #### Step 1. Build a SCANeR workspace
 
 1. Open SCANeR studio on your system and go to CONFIGURATION\Configuration Manager...
-![title](/img/configurationManager.png "title")
+![]( /img/configurationManager.png "title")
 2. Click on New Configuration button and build SP-ADAS workspace from DEFAULT workspace following instructions
 ![](./img/configurationManagerSP-ADAS.png)
 
-### Step 2. Build a scenario
+#### Step 2. Build a scenario
 
 |                |ASCII                          |HTML                         |
 |----------------|-------------------------------|-----------------------------|
