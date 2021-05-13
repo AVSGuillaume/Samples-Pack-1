@@ -19,6 +19,6 @@ The tutorial is tested to work with the SCANeR Software 2021.1.
 #### Step 1. Build a workspace
 
 1. Open SCANeR studio on your system and go to CONFIGURATION\Configuration Manager...
-![](img\newSCANeRConfiguration.png)
+![](https://sphilippe-avs.github.io/Samples-Pack/img/newSCANeRConfiguration.png)
 3. 
 4. Click on FILE
