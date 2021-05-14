@@ -77,19 +77,23 @@ SCANeR comes with a set models to help you to begin. We'll use default ones:
 - Environment/Proving ground: Community
 - Actors: EGO (CALLAS SmallFamilyCar), Pedestrian (Kid_Boy_02)
 - Sensor: LRRS1
-- Situation: EGO will be equiped with LRRS1 model and drive by a virtual driver at a contineous speed of 50kmh. Kid_Boy_02 will be disabled by default. When EGO will be at less than 20 meters of Kid_Boy_02 then we will force Kid_Boy_02 to cross the road without paying attention to EGO.
+- Situation: EGO will be equiped with LRRS1 model and drive by a virtual driver at a contineous speed of 50kmh. Kid_Boy_02 will be deactivated by default. When EGO will be at less than 20 meters of Kid_Boy_02 then we will activate and force Kid_Boy_02 to cross the road without paying attention to EGO.
 - KPI/Metrics: Thanks to our ADAS system that we'll connect in Step 4. we'll connect LRRS1 outputs to our AEB inputs. We expect that EGO avoid colision.
-  - 3.1 Choose environment
-  - 3.2 Choose actors
-  - 3.3 Attach sensors
-  - 3.4 Design situations
-  - 3.5 Define KPI/Metrics
 
 1. Go to `FILE\New Scenario`, select `Community` environment and click on `OK`
 2. Let's add EGO, from `RESOURCES` tab `Vehicles` drag and drop on a straight road `SmallFamilyCar` (see section `Cars (Callas)`)
 > **Note:** CALLAS is AVSimulation dynamics model.
 > Would you like to edit CALLAS components (tire, powertrain, suspension, etc.)? [How to? edit CALLAS dynamics model]()
 > Would you like to connect your own dynamics model (CarSim, Vi-CRT, CarMaker, etc.)? [How to? interface my dynamics model]()
+  2.1 To define the driver as `Virtual`, right click on EGO and select `Edit instance...`
+  2.2 From tab `Driver` set `Type` field value to `Virtual driver (automatic)`
+  2.3 From tab `Steering wheel control` set `Steering input` field to `Straight line`
+  2.4 From tab `Longitudinal control` set `Pedals control` field to `Follow a speed target specified in the command data`
+  2.5 From tab `Command data` section `Command type\Point by point` click on `Edit`
+    2.5.1 Set column `Time(s)` row `1` to `0` and  row `2` to `60`
+    2.5.2 Set column `Speed (km/h)` row `1` to `50` and  row `2` to `50`
+    2.5.3 Set column `Gearbox ratio` row `1` to `1` and  row `2` to `1`
+  2.6 Click on `OK` to close `Command type\Point by point` edition and click on `OK` to apply changes and close instance edition
 3. Let's add LRRS1 on EGO, from `RESOURCES` tab `Sensors` drag and drop `LRRS1` onto `SmallFamilyCar` (wich is EGO :blush:). SCANeR asks you to create a sensors' configuration on this Vehicle, aswer `Yes`. The `Sensor configuraiton edition` GUI appears.
 > **Note:** A sensor's configuration is a set of sensor models to attach on a vehicle. From this dialog you'll be able to define each sensor's position/orientation, outputs, etc.
   3.1 Set Position X to 3.5 m
@@ -98,6 +102,8 @@ SCANeR comes with a set models to help you to begin. We'll use default ones:
 5. Save as `SmallFamilyCar` your new sensor's configuration (xml format). The sensor's configuration including LRRS1 is linked to `SmallFamilyCar`
 > **Note:** Since each vehicle model has its own dimensions we can assume that a sensor's configuration will be dedicated to a specific vehicle model. So we advise to use the same name for your sensor's configruation as your vehicle dynamics model.
 6. Let's add Pedestrian, from `RESOURCES` tab `Pedestrians` drag and drop on a sidewalk `Kid_Boy_02` (in front of EGO :wink:)
+  6.1 To deactivate `Kid_Boy_02`, right click on it and select `Edit instance...`
+  6.2 From tab `Vehicle` set `Status` field value to `Inactive` and click on `OK`
 7. ...
 
 #### Step 4.
