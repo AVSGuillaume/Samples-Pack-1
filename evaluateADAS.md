@@ -85,6 +85,7 @@ SCANeR comes with a set models to help you to begin. We'll use default ones:
 > **Note:** CALLAS is AVSimulation dynamics model.
 > Would you like to edit CALLAS components (tire, powertrain, suspension, etc.)? [How to? edit CALLAS dynamics model]()
 > Would you like to connect your own dynamics model (CarSim, Vi-CRT, CarMaker, etc.)? [How to? interface my dynamics model]()
+
   2.1 To define the driver as `Virtual`, right click on EGO and select `Edit instance...`
   2.2 From tab `Driver` set `Type` field value to `Virtual driver (automatic)`
   2.3 From tab `Steering wheel control` set `Steering input` field to `Straight line`
@@ -94,6 +95,7 @@ SCANeR comes with a set models to help you to begin. We'll use default ones:
     2.5.2 Set column `Speed (km/h)` row `1` to `50` and  row `2` to `50`
     2.5.3 Set column `Gearbox ratio` row `1` to `1` and  row `2` to `1`
   2.6 Click on `OK` to close `Command type\Point by point` edition and click on `OK` to apply changes and close instance edition
+
 3. Let's add LRRS1 on EGO, from `RESOURCES` tab `Sensors` drag and drop `LRRS1` onto `SmallFamilyCar` (wich is EGO :blush:). SCANeR asks you to create a sensors' configuration on this Vehicle, aswer `Yes`. The `Sensor configuraiton edition` GUI appears.
 > **Note:** A sensor's configuration is a set of sensor models to attach on a vehicle. From this dialog you'll be able to define each sensor's position/orientation, outputs, etc.
   3.1 Set Position X to 3.5 m
