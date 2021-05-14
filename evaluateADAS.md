@@ -104,7 +104,8 @@ SCANeR comes with a set models to help you to begin. We'll use default ones:
 6. Let's add Pedestrian, from `RESOURCES` tab `Pedestrians` drag and drop on a sidewalk `Kid_Boy_02` (in front of EGO :wink:)
   6.1 To deactivate `Kid_Boy_02`, right click on it and select `Edit instance...`
   6.2 From tab `Vehicle` set `Status` field value to `Inactive` and click on `OK`
-7. ...
+7. Let's set up the situation and define KPI (colision true or false)
+8. ...
 
 #### Step 4.
 
